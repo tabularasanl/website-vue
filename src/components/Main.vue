@@ -10,6 +10,9 @@
         <v-flex 
           xs12 
           sm6
+          md4
+          lg3
+          ma-5
         >
           <v-card 
             class="ma-5"
