@@ -38,19 +38,19 @@
     </v-app-bar>
 
     <v-content>
-      <Main/>
+      <Intro/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Main from './components/Main'
+import Intro from './components/Intro'
 
 export default {
   name: 'App',
 
   components: {
-    Main
+    Intro
   },
 
   data: () => ({
