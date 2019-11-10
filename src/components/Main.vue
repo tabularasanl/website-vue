@@ -42,6 +42,10 @@ export default {
   background-color: rgba(255, 255, 255, 0.85);
 }
 
+#intro > .v-card__text {
+  line-height: 185%;
+}
+
 #intro > .v-card__title {
   background-color: rgba(255, 255, 255);
 }
