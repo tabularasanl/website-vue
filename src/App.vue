@@ -10,7 +10,7 @@
           alt="Vuetify Logo"
           class="shrink mr-2"
           contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+          src="./assets/logo.svg"
           transition="scale-transition"
           width="40"
         />
@@ -38,19 +38,20 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <Main/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Main from './components/Main'
 
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
+    Main
   },
 
   data: () => ({
