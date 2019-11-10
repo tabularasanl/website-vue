@@ -39,18 +39,21 @@
 
     <v-content>
       <Intro/>
+      <AboutUs/>
     </v-content>
   </v-app>
 </template>
 
 <script>
 import Intro from './components/Intro'
+import AboutUs from './components/AboutUs'
 
 export default {
   name: 'App',
 
   components: {
-    Intro
+    Intro,
+    AboutUs
   },
 
   data: () => ({
