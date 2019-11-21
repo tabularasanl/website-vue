@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="pt-1">
     <v-layout
       column
       wrap
@@ -11,34 +11,41 @@
         class="bg"
       >
         <v-container grid-list-xl>
+          <h1 class="mb-1">OVER ONS.</h1>
+          <v-divider class="mb-3"></v-divider>
           <v-layout 
             row 
             wrap 
             align-center
           >
             <v-flex 
-              xs10
-              offset-xs1 
-              md5
-              offset-md1
+              xs12
+              md6
             >
-              <v-card>
+              <v-card href="#">
                 <v-img 
                   src="../assets/manifest-themes/climate1.jpg"
                   height="200"
-                ></v-img>
+                  gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+                  class="align-end"
+                >
+                  <v-card-title primary-title class="white--text pa-5 pl-10">Standpunten</v-card-title>
+                </v-img>
               </v-card>
             </v-flex>
             <v-flex 
-              xs10
-              offset-xs1 
-              md5
+              xs12
+              md6
             >
-              <v-card>
+              <v-card href="#">
                 <v-img 
                   src="../assets/manifest-themes/climate1.jpg"
                   height="200"
-                ></v-img>
+                  gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+                  class="align-end"
+                >
+                  <v-card-title primary-title class="white--text pa-5 pl-10">Manifest</v-card-title>
+                </v-img>
               </v-card>
             </v-flex>
           </v-layout>
@@ -55,5 +62,4 @@ export default {
 </script>
 
 <style>
-
 </style>
