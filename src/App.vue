@@ -29,11 +29,31 @@
     </v-app-bar>
 
     <v-content>
-      <Intro/>
-      <AboutUs/>
+      <Intro />
+      <v-layout column>
+        <v-flex id="main">
+          <v-container id="column">
+            <AboutUs/>
+          </v-container>
+          
+        </v-flex>
+
+      </v-layout>
+      
     </v-content>
   </v-app>
 </template>
+
+<style scoped>
+  #column {
+    min-height: calc(95vh - 400px);
+    background-color: rgba(51, 95, 112, 0.1);
+  }
+
+  #main {
+    background-color: rgb(51, 95, 112, 0.1) !important;
+  }
+</style>
 
 <script>
 import Intro from './components/Intro'
@@ -47,8 +67,8 @@ export default {
     AboutUs
   },
 
-  data: () => ({
-    //
-  }),
+  // data: () => ({
+  //   //
+  // }),
 };
 </script>
