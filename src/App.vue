@@ -19,8 +19,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://www.google.com"
-        target="_blank"
+        href="#signup"
         text
       >
         <span class="mr-3">Word Lid</span>
@@ -34,6 +33,7 @@
         <v-flex id="main">
           <v-container id="column">
             <AboutUs/>
+            <SignUpForm/>
           </v-container>
           
         </v-flex>
@@ -58,13 +58,15 @@
 <script>
 import Intro from './components/Intro'
 import AboutUs from './components/AboutUs'
+import SignUpForm from './components/SignUpForm'
 
 export default {
   name: 'App',
 
   components: {
     Intro,
-    AboutUs
+    AboutUs,
+    SignUpForm
   },
 
   // data: () => ({

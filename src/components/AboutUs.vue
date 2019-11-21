@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-1">
+  <section>
     <v-layout
       column
       wrap
