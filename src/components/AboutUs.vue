@@ -37,7 +37,10 @@
               xs12
               md6
             >
-              <v-card href="#">
+              <v-card 
+                href="/manifest-tabula_rasa.pdf" 
+                download
+              >
                 <v-img 
                   src="../assets/manifest-themes/climate1.jpg"
                   height="200"
