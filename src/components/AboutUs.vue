@@ -42,7 +42,7 @@
                 download
               >
                 <v-img 
-                  src="../assets/manifest-themes/climate1.jpg"
+                  src="../assets/manifest-themes/people1.jpg"
                   height="200"
                   gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
                   class="align-end"
